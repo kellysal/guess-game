@@ -1,0 +1,47 @@
+body {
+    background:url("../images/gb2.jpg");
+    background-color:black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: center;
+}
+
+h5, p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h6, footer {
+    font: futura;
+    color: white;
+    text-align: center;
+    padding: 0px; 
+}
+
+.parent {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.innerOverlay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.col-md-12 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.word-box {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galaxy Guess Game</title>
+    <!--Link Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img class="img-fluid header" src="assets/images/header.png" alt="GalaxyHeader" />
+        <p id="press-start">(Press Any Key to Get Started)</p>
+    </header>
+
+    <!--word box-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="word-box"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">Wins: </div>
+                <div class="col-md-12" id="wins-box">0</div>
+            </div>
+            <!--Guesses Remaining and Win Counters-->
+            <div class="row">
+                <div class="col-md-12">Number of guesses remaining: </div>
+                <div class="col-md-12" id="missed-box">10</div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">Letters already guessed: </div>
+                <div class="col-md-12" id="letters-guessed-box"></div>
+            </div>
+        </div>
+        <!--Main Content-->
+        <div class="row">
+            <div class="col-md-12 parent">
+                <img class="img-fluid rounded center" />
+                <img class="innerOverlay" src="assets/images/placeholder.jpg" id="pictureDisplay" alt="" />
+            </div>
+        </div>
+        <!--Link Javascript-->
+        <script src="assets/javascript/game.js" type="text/javascript"></script>
+        <!--Footer-->
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Copyright &copy; 2019 Kelly</p>
+            </div>
+        </footer>
+</body>
+
+</html>

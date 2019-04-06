@@ -1,2 +1,2 @@
-# guess-game
-first guessing game
+# unit-4-game
+word guess game
